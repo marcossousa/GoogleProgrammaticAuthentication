@@ -1,0 +1,21 @@
+---------------------------------------------------------------------
+  Google Programatic Application
+---------------------------------------------------------------------
+This application show how to use the Google Programatic Application as
+as authentication backend for Django's Administration. 
+
+Project dependences:
+* Python 2.6
+* Django 1.1
+* Gdata (http://code.google.com/apis/base/client-download.html) 
+* mysqldb (http://sourceforge.net/projects/mysql-python). 
+
+This project contains:
+* Customized backend
+* Customized user registration
+
+To run this app be sure all dependences are installed and a 'google_app' database
+name install in local Mysql Database Server.
+
+Obs: This applications is just an example and for a production application an
+Oauth approach should be used.
