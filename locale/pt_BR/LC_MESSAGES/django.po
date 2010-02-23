@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-22 22:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: custom_auth/admin.py:10
+msgid "Personal info"
+msgstr "Dados Pessoais"
+
+#: custom_auth/admin.py:11
+msgid "Permissions"
+msgstr "Permissões"
+
+#: custom_auth/admin.py:12
+msgid "Important dates"
+msgstr "Datas importantes"
+
+#: custom_auth/admin.py:13
+msgid "Groups"
+msgstr "Grupos"
+
+#: custom_auth/backend.py:26
+msgid "Please enter with a registered Google account."
+msgstr "Favor entrar com uma conta do Google registrada."
+
+#: custom_auth/backend.py:39
+msgid ""
+"Please enter a correct username and password. Note that both fields are case-"
+"sensitive."
+msgstr ""
+"Favor entrar com login e senha corretos. Ambos são campos case-sensitive."
+
+#: custom_auth/backend.py:41
+msgid ""
+"Your account was locked at Google. Please, login first at Gmail page before "
+"try again."
+msgstr ""
+"Sua conta do Google foi bloqueada. Por favor, faça o login no Gmail antes de "
+"testar novamente"
+
+#: custom_auth/forms.py:7 custom_auth/forms.py:38
+#: templates/admin/auth/user/add_form.html:12
+msgid "Email"
+msgstr "E-mail"
+
+#: custom_auth/forms.py:8 custom_auth/forms.py:39
+msgid "Required. 70 characters or fewer following a valid e-mail format."
+msgstr "Obrigatório. 30 caracteres ou menos. Entre com um e-mail válido."
+
+#: custom_auth/forms.py:9 custom_auth/forms.py:40
+msgid "This value must contain a valid e-mail format."
+msgstr "O valor deve conter um e-mail válido"
+
+#: custom_auth/forms.py:18
+msgid "A user with that e-mail already exists."
+msgstr "Já existe outro usuário com este e-mail"
+
+#: custom_auth/sites.py:27
+msgid "Please log in again, because your session has expired."
+msgstr "Por favor faça o login novamente, porque a sessão expirou"
+
+#: custom_auth/sites.py:34
+msgid ""
+"Looks like your browser isn't configured to accept cookies. Please enable "
+"cookies, reload this page, and try again."
+msgstr ""
+"Há evidência de que o navegador não aceita cookies. Por favor, habilite-os,"
+"recarregue a página e tente novamente."
+
+#: custom_auth/sites.py:54 custom_auth/sites.py:60
+msgid "Usernames cannot contain the '@' character."
+msgstr "O nome de usuário não deve conter caracteres especiais"
+
+#: custom_auth/sites.py:57
+#, python-format
+msgid "Your e-mail address is not your username. Try '%s' instead."
+msgstr "Seu endereço de e-mail não é o nome de usuário. Tente usar '%s'"
+
+#: templates/languages.html:14
+msgid "Change"
+msgstr "Alterar"
+
+#: templates/admin/base.html:30
+msgid "Welcome,"
+msgstr "Bem vindo,"
+
+#: templates/admin/base.html:35
+msgid "Documentation"
+msgstr "Documentação"
+
+#: templates/admin/base.html:43
+msgid "Log out"
+msgstr "Sair"
+
+#: templates/admin/base.html:51
+msgid "Home"
+msgstr "Início"
+
+#: templates/admin/auth/user/add_form.html:6
+msgid ""
+"First, enter with a valid google account. Then, you'll be able to edit more "
+"user options."
+msgstr ""
+"Primeiramente, entre com uma conta do Google valida. Após você poderá editar "
+"as demais opções do usuário"

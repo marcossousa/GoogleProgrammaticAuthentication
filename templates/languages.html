@@ -1,0 +1,16 @@
+{% load i18n %}
+
+{% get_available_languages as LANGUAGES %}
+{% get_current_language as LANGUAGE_CODE %}
+<div id="languages">
+  <form action="/i18n/setlang/" method="post">
+
+    <select name="language">
+      {% for lang in LANGUAGES %}
+      <option value="{{ lang.0 }}" {% ifequal LANGUAGE_CODE lang.0 %} selected {% endifequal %}>{{ lang.1 }}</option>
+      {% endfor %}
+    </select>
+
+    <input type="submit" value="{% trans "Change" %}" />
+  </form>
+</div>
