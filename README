@@ -11,11 +11,13 @@ Project dependences:
 * mysqldb (http://sourceforge.net/projects/mysql-python). 
 
 This project contains:
-* Customized backend
+* Customized authentication backend
+* Extended login mechanism
 * Customized user registration
+* Language selector
 
-To run this app be sure all dependences are installed and a 'google_app' database
-name install in local Mysql Database Server.
+To run this app be sure all dependences are installed and a 'google_auth' database
+name install in local Mysql Database Server and run syncdb.
 
 Obs: This applications is just an example and for a production application an
 Oauth approach should be used.
